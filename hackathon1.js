@@ -10,7 +10,7 @@ counter = 0;
   grades = [];
   notadoor =[];
   
-  console.log(tallpeople)
+  
   class stages {
     constructor(x, y) {
       this.x = x;
@@ -56,7 +56,7 @@ counter = 0;
   newDiv1.style.position = "absolute";
   newDiv1.style.border="black solid 1px";
   newDiv1.setAttribute("class","notadoorway")
-  console.log(newDiv1)
+  
   document.body.insertBefore(newDiv1, long_story_block);
   }
   long_story_block.style.width = window.innerWidth + "px";
@@ -80,7 +80,7 @@ counter = 0;
      
         if(chary_x >= grades[secret].getX() - distance && (chary_x + 65) <= grades[secret].getX() - distance + 300){
           secret = secret + 1;
-          console.log("sex")
+          
         }
       
       
@@ -100,8 +100,7 @@ counter = 0;
           chary_y = 300 + tallpeople
       }
       else if((chary_x + 65) >= walls.style.X && (chary_x ) <= (walls.style.X + 300)){
-        console.log(chary_y)
-        console.log(walls.style.Y - 100)
+        
           if(chary_y == (walls.style.Y - 100) && (charvolnum == 0) ){
               charvolnum = 4;
               chary_y = walls.style.Y - 100
@@ -219,7 +218,7 @@ counter = 0;
     if(counter != 16){
       if(chary_x >= grades[counter].getX() - distance){
         counter = counter + 1;
-    console.log(counter)
+    
       }
     }
     
